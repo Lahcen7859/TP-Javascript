@@ -26,7 +26,7 @@ Utilisé un navigateur web moderne (Google Chrome, Firefox,...). Firefox de pré
 ```
 2. Ouvrez Google.html dans un navigateur
     
-## Authors
+## Auteurs
 
 Ce projet a été réalisé par Lahcen IDLAHCEN dans le cadre d'un TP en informatique
 
