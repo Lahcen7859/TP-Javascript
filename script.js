@@ -123,3 +123,5 @@ let intervalle = setInterval(function(){//Pour cahque intervalle de 1000ms (1s),
     }
 }, 1000);
 
+//Partie Convertisseur
+
