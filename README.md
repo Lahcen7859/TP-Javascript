@@ -2,6 +2,9 @@
 # TP Javascript
 
 Ce projet est le TP à rendre de la séance n°2 pour le mardi 30 Septembre 2025 qui s'intitule "Javascript, exercices de révisions".
+
+# Avertissement
+J'ai roujouté dans mon code GitHub la partie convertisseur de monnaie. En effet, j'ai loupé cette partie lors de la réalisation de ce TP. Malheuresement, au moment ou j'ai remarqué mon erreure maladroite, j'avais déjà envoyé mon compte rendu sur le moodle. Ainsi je me permet de rajouter cette partie du TP. Cependant, je ne pourrais pas le rajouter dans le compte rendu car je n'y ai plus accès
 ## Structure
 
 - `google.html` : Page du site
