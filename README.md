@@ -4,7 +4,7 @@
 Ce projet est le TP à rendre de la séance n°2 pour le mardi 30 Septembre 2025 qui s'intitule "Javascript, exercices de révisions".
 
 # Avertissement
-J'ai roujouté dans mon code GitHub la partie convertisseur de monnaie qui n'est pas effectif dans mon compte rendu.
+J'ai rajouté dans mon code GitHub la partie convertisseur de monnaie qui n'est pas effectif dans mon compte rendu.
 ## Structure
 
 - `google.html` : Page du site
