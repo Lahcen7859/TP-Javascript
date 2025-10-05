@@ -133,3 +133,33 @@ function convertir(){ //Fonction de conversion
     document.getElementById("daus").value = (euros * tauxAUD).toFixed(2);
 }
 
+//Partie Convertisseur version 2
+// Taux de change (identique à ceux de la version 1)
+const tauxDollarAmericainAuto = 1.17365;
+const tauxDollarAustralienAuto = 1.7789;
+
+function convertirAuto() {
+    //On crée des variables qui récupèrent les valeurs actuelles
+    let euros = parseFloat(document.getElementById("eurosAuto").value);
+    let dollarAmericain = parseFloat(document.getElementById("dollarAmericainAuto").value);
+    let dollarAustralien = parseFloat(document.getElementById("dollarAustralienAuto").value);
+
+    //On détermine quelle valeur a été modifiée
+    let derniermodifié = document.activeElement.id;
+
+    //On met les autres champs à jour en fonction de la valeur modifiée
+    if (derniermodifié === "eurosAuto") {
+        document.getElementById("dollarAmericainAuto").value = (euros * tauxDollarAmericainAuto).toFixed(2);
+        document.getElementById("dollarAustralienAuto").value = (euros * tauxDollarAustralienAuto).toFixed(2);
+    }
+    else if (derniermodifié === "dollarAmericainAuto") {
+        let eurosCalcules = dollarAmericain / tauxDollarAmericainAuto;
+        document.getElementById("eurosAuto").value = eurosCalcules.toFixed(2);
+        document.getElementById("dollarAustralienAuto").value = (eurosCalcules * tauxDollarAustralienAuto).toFixed(2);
+    }
+    else if (derniermodifié === "dollarAustralienAuto") {
+        let eurosCalcules = dollarAustralien / tauxDollarAustralienAuto;
+        document.getElementById("eurosAuto").value = eurosCalcules.toFixed(2);
+        document.getElementById("dollarAmericainAuto").value = (eurosCalcules * tauxDollarAmericainAuto).toFixed(2);
+    }
+}
