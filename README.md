@@ -9,7 +9,7 @@ J'ai rajouté dans mon code GitHub la partie convertisseur de monnaie après le 
 
 - `google.html` : Page du site
 - `script.js` : script nécessaire à la mise en oeuvre du Javascript
-- `Style.css` : fichier css qui gère les dimensions des images et la stylisation du tableau
+- `Style.css` : fichier css qui gère les dimensions des images et la stylisation des tableaux
 - `Logo_Google` : image principal du site
 ## Usage
 
