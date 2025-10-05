@@ -123,5 +123,13 @@ let intervalle = setInterval(function(){//Pour cahque intervalle de 1000ms (1s),
     }
 }, 1000);
 
-//Partie Convertisseur
+//Partie Convertisseur version 1
+const tauxUSD = 1.17365; // 1 € = 1.17365 $ (d'après boursorama)
+const tauxAUD = 1.7789; // 1 € = 1.7789 A$ (d'après boursorama)
+
+function convertir(){ //Fonction de conversion
+    let euros = parseFloat(document.getElementById("euros").value);
+    document.getElementById("dus").value = (euros * tauxUSD).toFixed(2); //On arrondis au centième près
+    document.getElementById("daus").value = (euros * tauxAUD).toFixed(2);
+}
 
